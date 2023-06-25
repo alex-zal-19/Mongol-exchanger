@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchanger</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px ;
+        }
+        label {
+            display: block;
+            font-size: 30px;
+            margin-bottom: 7px;
+            
+        }
+        input {
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+            margin-bottom: 15px;
+            
+        }
+        input::placeholder {
+            color: rgba(7, 121, 114, 0.449);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Гривня to Монгол төгрөг exchanger</h1>
+        <label for="uk">Гривні</label>
+        <input placeholder="Введіть суму" id="uk" type="text">
+        <label for="tug">Монгол төгрөг</label>
+        <input placeholder="Хэмжээг оруулна уу" id="tug" type="text">
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
